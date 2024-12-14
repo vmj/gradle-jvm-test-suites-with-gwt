@@ -1,3 +1,17 @@
 plugins {
-	id 'java'
+	id 'war'
+	id 'com.github.sahara3.tomcat-runner' version '0.3.0'
+}
+
+repositories {
+	mavenCentral()
+}
+
+tomcat {
+	version = '9.0.86'
+	port = 8080
+
+	webapp(project) {
+		contextPath = 'app'
+	}
 }
