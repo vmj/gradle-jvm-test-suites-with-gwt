@@ -10,6 +10,10 @@ repositories {
 
 gwt {
 	modules = ['org.example.MyModule']
+
+//	gwtTest {
+//		testTasks = null
+//	}
 }
 
 tomcat {

@@ -1,1 +1,4 @@
+pluginManagement {
+//    includeBuild '../gwt-gradle-plugin'
+}
 rootProject.name = 'gradle-jvm-test-suites-with-gwt'

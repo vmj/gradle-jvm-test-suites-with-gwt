@@ -12,3 +12,6 @@ And open http://localhost:8080/app/ in your browser.
   .\gradlew gwtMockitoTest
   .\gradlew test5
   .\gradlew integrationTest
+
+NOTE: Some test suites do not work without a patched `gwt-gradle-plugin`
+and disabling the GWT Test task configuration. (See commit history.)
