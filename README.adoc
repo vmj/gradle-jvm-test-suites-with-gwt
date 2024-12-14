@@ -5,3 +5,10 @@
   .\gradlew tomcatRun
 
 And open http://localhost:8080/app/ in your browser.
+
+## Test
+
+  .\gradlew test
+  .\gradlew gwtMockitoTest
+  .\gradlew test5
+  .\gradlew integrationTest
