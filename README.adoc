@@ -1,0 +1,10 @@
+# Example
+
+## Compile
+
+  .\gradlew jar
+
+## Run
+
+  java -cp .\build\libs\gradle-jvm-test-suites-with-gwt.jar org.example.Main
+
